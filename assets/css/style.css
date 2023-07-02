@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css2);
+
+.redressed{
+    font-family: 'redressed',cursive;
+}
+
+.merriwheater{
+    font-family: 'merriwheater',serif;
+}
+
+.cc-navbar{
+    background-color:rgba(0, 0, 0, 0.5);
+   font-family: serif;
+   box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+z-index: 99;
+}
+
+.cc-navbar .nav-link{
+    border-bottom:1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+
+
+.cc-navbar .nav-link:hover{
+padding-bottom: 20px;
+border-bottom-color: var(--bs-teal);
+}
+
+.cc-menu{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    background-image: url('../img/chairs-2179044_1280.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    background-size: cover;
+    
+}
+
+.banner,
+ .order-form {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-image: url('../img/chairs-2179044_1280.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    background-size: cover;
+}
+
+.banner .banner-desc{
+font-size: 48px;
+font-weight: 400px;
+color: rgb(255, 255, 255)
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
